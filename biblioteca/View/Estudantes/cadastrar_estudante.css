@@ -1,0 +1,102 @@
+/* Estilo base para todo o site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header h3 {
+    color: black;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: #c081cf;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #5c236a;
+}
+
+main form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form input[type="text"], form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #5c236a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4a1d57;
+}
+
+/* Estilos de fundo e barra de pesquisa (para páginas que exibem a imagem de fundo) */
+.fundo-imagem {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #8b49d3;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0.5rem;
+}

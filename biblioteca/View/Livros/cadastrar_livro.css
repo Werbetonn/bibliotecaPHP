@@ -1,0 +1,152 @@
+/* Estilo base para todo o site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header h3 {
+    color: black;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: #a300cc;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #5c236a;
+}
+
+main form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form input[type="text"], form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #5c236a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4a1d57;
+}
+
+/* Estilos de fundo e barra de pesquisa (para páginas que exibem a imagem de fundo) */
+.fundo-imagem {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.barra-pesquisa {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barra-pesquisa input[type="text"] {
+    padding: 9px;
+    font-size: 14px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+}
+
+.barra-pesquisa input[type="submit"] {
+    padding: 9px;
+    font-size: 14px;
+    background-color: #5c236a;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.barra-pesquisa input[type="submit"]:hover {
+    color: #e1def6;
+}
+
+/* Estilo para a área de botões */
+.botoes {
+    margin-top: 20px;
+}
+
+.botoes a {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #5c236a;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.botoes a:hover {
+    color: #e1def6;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #8b49d3;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0.5rem;
+}
